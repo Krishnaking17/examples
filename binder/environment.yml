@@ -1,0 +1,12 @@
+name: almond-examples
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - jupyterlab=3.6.5
+  - nodejs=16
+  - openjdk=11
+  - pip
+  - pip:
+      - almond
